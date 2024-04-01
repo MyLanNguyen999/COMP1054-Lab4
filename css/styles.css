@@ -1,4 +1,30 @@
 @charset "utf-8";
-table, th {
+html {
+    text-align: center;
+    margin-top: 50px;
+}
+table {
     border: 1px solid black;
+    display: inline-block;
+    border-collapse: collapse;
+    
+}
+td, th {
+   padding: 4px;
+}
+th {
+    background-color: black;
+    color: white;
+}
+td {
+    border-bottom: grey;
+}
+tr {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+}
+tr>th {
+    text-align: right;
+}
+#tableTop {
+    text-align: center;
 }
